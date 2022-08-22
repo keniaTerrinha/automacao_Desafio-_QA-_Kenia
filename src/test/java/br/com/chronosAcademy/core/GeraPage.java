@@ -1,6 +1,8 @@
 package br.com.chronosAcademy.core;
 
 import org.junit.Test;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -8,6 +10,7 @@ import java.io.FileReader;
 import java.util.Scanner;
 
 public class GeraPage {
+
     String space = "    ";
     @Test
     public void geraPage() throws FileNotFoundException {
@@ -118,6 +121,8 @@ public class GeraPage {
         System.out.println();
 
     }
+
+
 
 
 }

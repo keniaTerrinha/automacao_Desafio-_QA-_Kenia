@@ -23,6 +23,7 @@ public class Driver {
     private static String nomeCenario;
     private static File diretorio;
     private static int numPrint;
+    private Object location;
 
     public static String getNomeCenario() {
         return nomeCenario;
@@ -109,4 +110,14 @@ public class Driver {
         }
     }
 
+
+    
+
+    public void setLocation(Object location) {
+        this.location = location;
+    }
+
+    public void getLocation() {
+        this.location = location;
+    }
 }
